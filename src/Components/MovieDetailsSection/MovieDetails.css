@@ -1,0 +1,173 @@
+
+
+
+.movie-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+}
+
+.movie-details-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.movie-details-container img {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.movie-details-container .backdrop-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.movie-details-container p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.movie-details-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.movie-details-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.movie-details-container ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.images{
+    height: 50vh;
+    margin: 10px;
+}
+
+.details-view{
+    display: flex;
+    flex-direction: row;
+}
+
+.backdrop-image{
+    height: 55vh;
+    width: 210vh;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-color: #010a17;
+    color:#fff;
+}
+
+.cast-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-con{
+    height:100px;
+    width:100px;
+}
+
+.cast-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.actor {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.actor img {
+    width: 190px;
+    height: 240px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.actor p {
+    margin: 0;
+}
+.overview, .cast{
+    margin: 10px;
+}
+
+/* Media queries */
+/* For smaller screens like mobile phones */
+@media screen and (max-width: 576px) {
+    .movie-details-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .movie-details-container img {
+        max-width: 200px;
+    }
+
+    .movie-details-container .backdrop-image {
+        height: 300px;
+    }
+
+    .movie-details-container p {
+        font-size: 0.9rem;
+    }
+
+    .movie-details-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .actor {
+        width: 150px;
+    }
+
+    .actor img {
+        width: 140px;
+        height: 180px;
+    }
+}
+
+/* For medium-sized screens like tablets */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .movie-details-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .movie-details-container img {
+        max-width: 250px;
+    }
+
+    .movie-details-container .backdrop-image {
+        height: 350px;
+    }
+
+    .movie-details-container p {
+        font-size: 1rem;
+    }
+
+    .movie-details-container h2 {
+        font-size: 1.3rem;
+    }
+
+    .actor {
+        width: 170px;
+    }
+
+    .actor img {
+        width: 160px;
+        height: 200px;
+    }
+}
+
+/* For larger screens like desktops */
+@media screen and (min-width: 993px) {
+    /* No additional changes needed for larger screens */
+}

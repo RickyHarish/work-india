@@ -1,0 +1,168 @@
+/* body{
+    background-color: #42444c;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+} */
+
+
+/* Default styles */
+body {
+    background-color: #42444c;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    margin: 0;
+    color: white
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+/* Media queries */
+/* For smaller screens like mobile phones */
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .search-input {
+        border-radius: 4px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .search-button {
+        border-radius: 4px;
+    }
+}
+
+/* For medium-sized screens like tablets */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header {
+        padding: 15px;
+    }
+
+    .nav-list {
+        justify-content: center;
+    }
+
+    .search-container {
+        margin-left: auto;
+    }
+
+    .search-input {
+        width: 200px;
+    }
+}
+
+/* For larger screens like desktops */
+@media screen and (min-width: 993px) {
+    .header {
+        padding: 20px;
+    }
+
+    .search-input {
+        width: 300px;
+    }
+}

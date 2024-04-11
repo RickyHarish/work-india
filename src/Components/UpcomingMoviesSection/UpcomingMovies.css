@@ -1,0 +1,125 @@
+/* .movie-list-container {
+    padding: 20px;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.movie-card {
+    background-color: #42444c;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.movie-details h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.movie-details p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+} */
+
+
+/* Default styles */
+.movie-list-container {
+    padding: 20px;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.movie-card {
+    background-color: #42444c;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.movie-details h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.movie-details p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Media queries */
+/* For smaller screens like mobile phones */
+@media screen and (max-width: 576px) {
+    .movie-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .movie-card {
+        padding: 5px;
+    }
+
+    .movie-card img {
+        margin-bottom: 5px;
+    }
+
+    .movie-details h3 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .movie-details p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+
+/* For medium-sized screens like tablets */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .movie-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .movie-card {
+        padding: 8px;
+    }
+
+    .movie-details h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .movie-details p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+}
+
+/* For larger screens like desktops */
+@media screen and (min-width: 993px) {
+    /* No additional changes needed for larger screens */
+}
